@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?> <!-- Setup -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> <!-- Still Setup -->
+
+<html xmlns="http://www.w3.org/1999/xhtml"> <!-- Setup -->
+
+<head> <!-- Websites are initally divided into Head, Main, Footer. All 3 of these contain unique contents. cite: https://zellwk.com/blog/html-structure/ -->
+
+<script src="formsubmit.js"></script> 	    <!-- javascript -->
+
+<link href="new.css" rel="stylesheet" type="text/css" />   <!-- left over code, this page will work with new.css if in same folder but really isn't needed -->
+
+		<meta charset="UTF-8" />                          <!-- next 3 rows are meta data for search engines to read -->
+		<meta name="author" content="Casey Rankowski" />
+		<meta name="description" content="Just a username and password for dat Lifeline">
+		<title>Your Lifeline Info</title>  <!-- This will actually display -->
+
+</head> <!-- End of Head area, starting Body... -->
+
+<body>  <!-- Staring Body here -->
+
+	<div id="header"> <!-- "header" is a mini section inside Body. Can be named to anything usually but acts like a header here -->
+		<h2>Lifeline</h2>	<!-- Title display -->
+	</div> <!-- End of "header" section -->
+
+<div id="section">  <!-- another section begins -->
+
+<form id="survey" name="survey"
+	action="http://www.google.com" 
+	method="post"> <!-- ^this doesn't do anything productive or working atm, google (temporarly placeholder) doesn't accept 405 results until we figure out networking protocol -->
+
+<fieldset id="custInfo" <!-- first form; forms are slots you type in or input data -->
+<legend>Your Information</legend> 
+
+First Name *
+<label for="f_name"></label>
+<input name="f_name" id="f_name" placeholder="Your First Name" />
+
+Last Name *
+<label for="l_name"></label>
+<input name="l_name" id="l_name" placeholder="Your Last Name"/>
+
+Phone Number *
+<label for="phonenumber"></label>
+<input name="phonenumber" id="phonenumber" placeholder="6106106100"/>
+
+Email *
+<label for="email"></label>
+<input name="email" id="email" placeholder="hue@thing.com"/>
+	
+</fieldset>
+
+</div> <!-- end section -->
+
+<p>
+	<input type="submit" value="Save" />
+	<input type="reset" value="Cancel" />
+</p>
+
+<p>
+   <a href="Lifeline2.html"/>This Page: Your Basic Information </a> 
+</p>
+
+<p>
+	<a href="Lifeline3.html"/>Emergency Contacts: Your Contact Information </a> 
+</p>
+
+<p>
+	<a href="Lifeline4.html"/>Medical Data: Your Medical Information </a> 
+</p>
+
+</body> <!-- End of Body, No Footer here, document is done. -->
+
+</html>
