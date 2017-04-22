@@ -10,4 +10,4 @@ message = client.messages.create(
     from_="REDACTED",
     body="It worked!")
 
-print("This message was sent to the user successfully: " + message.sid)
+print("This message was sent to the user successfully: " + message.body)
