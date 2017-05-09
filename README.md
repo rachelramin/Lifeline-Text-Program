@@ -2,7 +2,7 @@
 
 [Lifeline](http://i.imgur.com/ItQ03be.png)
 
-Lifeline is a panic button built into a widget on your phone. If you're in any danger, and cannot contact 911, you're provided a moethod of which to silently reach out to your emergency contacts, to ask them to call 911 or otherwise send help on your behalf.
+Lifeline is a panic button built into a widget on your phone. If you're in any danger, and cannot contact 911, you're provided a method of which to silently reach out to your emergency contacts, to ask them to call 911 or otherwise send help on your behalf.
 
 Lifeline is written using Objective C, Python, HTML, SQL, Cydia Substrate, and Bash.
 
@@ -16,3 +16,4 @@ The major components and structure are as follows. NOTE: This project is in pre-
 - Bash: Cross-communication and aliases between various project components. Uses iplist by @NotAlexNoyle
 
 NOTE: send_sms.py requires twilio account and library. More info here: https://www.twilio.com/docs/quickstart/python/sms#faq
+NOTE: Not all components of the project are hosted on this repository due to licencing conflicts. Will be worked out eventually.
