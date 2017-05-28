@@ -1,1 +1,2 @@
-static/* webcode
+* linguist-vendored
+*.py linguist-vendored=false
