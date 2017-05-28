@@ -16,4 +16,7 @@ The major components and structure are as follows. NOTE: This project is in pre-
 - Bash: Cross-communication and aliases between various project components. Uses iplist by @NotAlexNoyle
 
 NOTE: send_sms.py requires twilio account and library. More info here: https://www.twilio.com/docs/quickstart/python/sms#faq
+
 NOTE: Not all components of the project are hosted on this repository due to licencing conflicts. Will be worked out eventually.
+
+NOTE: FOR TEAM --> To change display language, modify second line of .gitattributes
