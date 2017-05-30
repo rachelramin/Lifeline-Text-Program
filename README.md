@@ -2,7 +2,7 @@
 
 [Lifeline](http://i.imgur.com/ItQ03be.png)
 
-Lifeline is a panic button built into a widget on your phone. If you're in any danger, and cannot contact 911, you're provided a method of which to silently reach out to your emergency contacts, to ask them to call 911 or otherwise send help on your behalf.
+Lifeline is a panic button built into a widget on your phone. If you're in any danger, and cannot contact 911, you're provided a method by which to silently reach out to your emergency contacts, to ask them to call 911 or otherwise send help on your behalf.
 
 Lifeline is written using Objective C, Python, HTML, SQL, Cydia Substrate, and Bash.
 
