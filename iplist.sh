@@ -43,7 +43,7 @@ echo "Previous External IP: "
 a=`cat ~/.previousexternaladdr`
 echo $a
 
-    echo "No Previous External IP Recorded" > ~/.linefixi
+    echo "No Previous External IP Recorded" > ~/.linefix
     # Prints file with external IP (or lack thereof) stored in it
     b=`cat ~/.linefix`
 
